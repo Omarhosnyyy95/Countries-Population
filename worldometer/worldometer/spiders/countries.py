@@ -13,10 +13,14 @@ class CountriesSpider(scrapy.Spider):
         for country in countries:
             name = country.xpath(".//text()").get()
             link = country.xpath(".//@href").get()
-            
+
             yield response.follow(url = link, callback = self.parse_country, meta = {'country_name': name})
 
+            # absolute_link = f"https://www.worldometer.info{link}"
+            # yield scrapy.Request(url = absolute_link, callback = self.parse_country)
+
     def parse_country(self, response):
+        # logging.info(response.url)
         name = response.request.meta['country_name']
         rows = response.xpath("(//table[@class = 'table table-striped table-bordered table-hover table-condensed table-list'])[1]/tbody/tr")
         for row in rows:
