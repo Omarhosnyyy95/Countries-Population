@@ -1,0 +1,802 @@
+[
+    {
+        "currency pair": "BTC/USD",
+        "volume(24h)": "13 911 396.53 USD",
+        "last price": "9 352.55999 USD",
+        "change(24h)": "1.97%",
+        "high(24h)": "9 400 USD",
+        "low(24h)": "9 149.04003 USD"
+    },
+    {
+        "currency pair": "ETH/USD",
+        "volume(24h)": "157 701.16 USD",
+        "last price": "239.96001 USD",
+        "change(24h)": "0.63%",
+        "high(24h)": "242.05 USD",
+        "low(24h)": "235 USD"
+    },
+    {
+        "currency pair": "BCH/USD",
+        "volume(24h)": "92 909.34 USD",
+        "last price": "228.58578 USD",
+        "change(24h)": "1.07%",
+        "high(24h)": "228.94258 USD",
+        "low(24h)": "221.88376 USD"
+    },
+    {
+        "currency pair": "LTC/USD",
+        "volume(24h)": "76 290.46 USD",
+        "last price": "43.52060 USD",
+        "change(24h)": "2.86%",
+        "high(24h)": "43.75 USD",
+        "low(24h)": "41.73655 USD"
+    },
+    {
+        "currency pair": "XEM/USD",
+        "volume(24h)": "64 606.27 USD",
+        "last price": "0.04974 USD",
+        "change(24h)": "-2.49%",
+        "high(24h)": "0.05123 USD",
+        "low(24h)": "0.0487 USD"
+    },
+    {
+        "currency pair": "DOGE/USD",
+        "volume(24h)": "38 834.47 USD",
+        "last price": "0.00327 USD",
+        "change(24h)": "3.2%",
+        "high(24h)": "0.0033 USD",
+        "low(24h)": "0.00302 USD"
+    },
+    {
+        "currency pair": "DASH/USD",
+        "volume(24h)": "19 741.64 USD",
+        "last price": "71.65832 USD",
+        "change(24h)": "1.31%",
+        "high(24h)": "71.82 USD",
+        "low(24h)": "70 USD"
+    },
+    {
+        "currency pair": "LSK/USD",
+        "volume(24h)": "15 255.62 USD",
+        "last price": "1.26994 USD",
+        "change(24h)": "1.67%",
+        "high(24h)": "1.2976 USD",
+        "low(24h)": "1.22821 USD"
+    },
+    {
+        "currency pair": "PPC/USD",
+        "volume(24h)": "5 273.85 USD",
+        "last price": "0.26749 USD",
+        "change(24h)": "3.65%",
+        "high(24h)": "0.26969 USD",
+        "low(24h)": "0.25521 USD"
+    },
+    {
+        "currency pair": "USD/RUR",
+        "volume(24h)": "2 343.77 USD",
+        "last price": "70.12426 RUR",
+        "change(24h)": "-1%",
+        "high(24h)": "71.2 RUR",
+        "low(24h)": "70.001 RUR"
+    },
+    {
+        "currency pair": "USDT/USD",
+        "volume(24h)": "1 901.33 USD",
+        "last price": "1.00680 USD",
+        "change(24h)": "0.58%",
+        "high(24h)": "1.00709 USD",
+        "low(24h)": "0.99622 USD"
+    },
+    {
+        "currency pair": "EMC/USD",
+        "volume(24h)": "807.11 USD",
+        "last price": "0.05589 USD",
+        "change(24h)": "-2.63%",
+        "high(24h)": "0.05893 USD",
+        "low(24h)": "0.05337 USD"
+    },
+    {
+        "currency pair": "PZM/USD",
+        "volume(24h)": "735.23 USD",
+        "last price": "0.01251 USD",
+        "change(24h)": "-9.35%",
+        "high(24h)": "0.01392 USD",
+        "low(24h)": "0.0121 USD"
+    },
+    {
+        "currency pair": "NEO/USD",
+        "volume(24h)": "760.05 USD",
+        "last price": "10.96210 USD",
+        "change(24h)": "1.22%",
+        "high(24h)": "11.18899 USD",
+        "low(24h)": "10.4 USD"
+    },
+    {
+        "currency pair": "KNC/USD",
+        "volume(24h)": "464.48 USD",
+        "last price": "1.54827 USD",
+        "change(24h)": "-3.71%",
+        "high(24h)": "1.60794 USD",
+        "low(24h)": "1.54827 USD"
+    },
+    {
+        "currency pair": "XRP/USD",
+        "volume(24h)": "390.25 USD",
+        "last price": "0.20115 USD",
+        "change(24h)": "1.6%",
+        "high(24h)": "0.202 USD",
+        "low(24h)": "0.194 USD"
+    },
+    {
+        "currency pair": "YOC/USD",
+        "volume(24h)": "282.74 USD",
+        "last price": "0.00024 USD",
+        "change(24h)": "9.09%",
+        "high(24h)": "0.00024 USD",
+        "low(24h)": "0.00019 USD"
+    },
+    {
+        "currency pair": "ZEC/USD",
+        "volume(24h)": "323.18 USD",
+        "last price": "61.83684 USD",
+        "change(24h)": "3.22%",
+        "high(24h)": "63.91872 USD",
+        "low(24h)": "56.8594 USD"
+    },
+    {
+        "currency pair": "EUR/USD",
+        "volume(24h)": "284.54 USD",
+        "last price": "1.10784 USD",
+        "change(24h)": "-0.39%",
+        "high(24h)": "1.11347 USD",
+        "low(24h)": "1.1011 USD"
+    },
+    {
+        "currency pair": "USDC/USD",
+        "volume(24h)": "276.04 USD",
+        "last price": "1.03999 USD",
+        "change(24h)": "2.83%",
+        "high(24h)": "1.03999 USD",
+        "low(24h)": "1.0114 USD"
+    },
+    {
+        "currency pair": "HB/USD",
+        "volume(24h)": "261.39 USD",
+        "last price": "0.00151 USD",
+        "change(24h)": "-3.21%",
+        "high(24h)": "0.00159 USD",
+        "low(24h)": "0.0015 USD"
+    },
+    {
+        "currency pair": "VRS/USD",
+        "volume(24h)": "259.89 USD",
+        "last price": "0.02751 USD",
+        "change(24h)": "5.69%",
+        "high(24h)": "0.02751 USD",
+        "low(24h)": "0.02545 USD"
+    },
+    {
+        "currency pair": "MNC/USD",
+        "volume(24h)": "256.23 USD",
+        "last price": "0.00630 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0.0063 USD",
+        "low(24h)": "0.00629 USD"
+    },
+    {
+        "currency pair": "CPC/USD",
+        "volume(24h)": "264.36 USD",
+        "last price": "0.04161 USD",
+        "change(24h)": "2.97%",
+        "high(24h)": "0.04334 USD",
+        "low(24h)": "0.03817 USD"
+    },
+    {
+        "currency pair": "TRX/USD",
+        "volume(24h)": "236.08 USD",
+        "last price": "0.01770 USD",
+        "change(24h)": "3.51%",
+        "high(24h)": "0.01848 USD",
+        "low(24h)": "0.017 USD"
+    },
+    {
+        "currency pair": "STRAT/USD",
+        "volume(24h)": "228.69 USD",
+        "last price": "0.65594 USD",
+        "change(24h)": "-5.51%",
+        "high(24h)": "0.69492 USD",
+        "low(24h)": "0.65594 USD"
+    },
+    {
+        "currency pair": "ITCM/USD",
+        "volume(24h)": "164.77 USD",
+        "last price": "0.01004 USD",
+        "change(24h)": "2.76%",
+        "high(24h)": "0.01004 USD",
+        "low(24h)": "0.00651 USD"
+    },
+    {
+        "currency pair": "VMR/USD",
+        "volume(24h)": "111.04 USD",
+        "last price": "0.38500 USD",
+        "change(24h)": "28.21%",
+        "high(24h)": "0.388 USD",
+        "low(24h)": "0.3003 USD"
+    },
+    {
+        "currency pair": "ALLBI/USD",
+        "volume(24h)": "36.58 USD",
+        "last price": "0.00007 USD",
+        "change(24h)": "16.67%",
+        "high(24h)": "0.00007 USD",
+        "low(24h)": "0.00006 USD"
+    },
+    {
+        "currency pair": "BAT/USD",
+        "volume(24h)": "48.09 USD",
+        "last price": "0.26510 USD",
+        "change(24h)": "2.33%",
+        "high(24h)": "0.2655 USD",
+        "low(24h)": "0.25477 USD"
+    },
+    {
+        "currency pair": "TUBE/USD",
+        "volume(24h)": "36.87 USD",
+        "last price": "0.01235 USD",
+        "change(24h)": "1.9%",
+        "high(24h)": "0.01247 USD",
+        "low(24h)": "0.00975 USD"
+    },
+    {
+        "currency pair": "EOS/USD",
+        "volume(24h)": "31.77 USD",
+        "last price": "2.64740 USD",
+        "change(24h)": "0.34%",
+        "high(24h)": "2.65 USD",
+        "low(24h)": "2.6384 USD"
+    },
+    {
+        "currency pair": "OMG/USD",
+        "volume(24h)": "30.43 USD",
+        "last price": "1.66364 USD",
+        "change(24h)": "-2.2%",
+        "high(24h)": "1.70113 USD",
+        "low(24h)": "1.66364 USD"
+    },
+    {
+        "currency pair": "MLN/USD",
+        "volume(24h)": "26.09 USD",
+        "last price": "10.01694 USD",
+        "change(24h)": "0%",
+        "high(24h)": "10.01694 USD",
+        "low(24h)": "10.01693 USD"
+    },
+    {
+        "currency pair": "ASAFE2/USD",
+        "volume(24h)": "11.96 USD",
+        "last price": "0.01900 USD",
+        "change(24h)": "-0.05%",
+        "high(24h)": "0.01901 USD",
+        "low(24h)": "0.01851 USD"
+    },
+    {
+        "currency pair": "onLEXpa/USD",
+        "volume(24h)": "4.08 USD",
+        "last price": "0.00004 USD",
+        "change(24h)": "-20%",
+        "high(24h)": "0.00005 USD",
+        "low(24h)": "0.00004 USD"
+    },
+    {
+        "currency pair": "DMD/USD",
+        "volume(24h)": "8.78 USD",
+        "last price": "0.28515 USD",
+        "change(24h)": "-11.55%",
+        "high(24h)": "0.3224 USD",
+        "low(24h)": "0.28515 USD"
+    },
+    {
+        "currency pair": "CVC/USD",
+        "volume(24h)": "8.37 USD",
+        "last price": "0.03000 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0.03 USD",
+        "low(24h)": "0.03 USD"
+    },
+    {
+        "currency pair": "DGB/USD",
+        "volume(24h)": "8.22 USD",
+        "last price": "0.02090 USD",
+        "change(24h)": "4.5%",
+        "high(24h)": "0.0209 USD",
+        "low(24h)": "0.02 USD"
+    },
+    {
+        "currency pair": "QTUM/USD",
+        "volume(24h)": "7.98 USD",
+        "last price": "2.22337 USD",
+        "change(24h)": "0%",
+        "high(24h)": "2.22337 USD",
+        "low(24h)": "2.22337 USD"
+    },
+    {
+        "currency pair": "MCO/USD",
+        "volume(24h)": "7.89 USD",
+        "last price": "4.44400 USD",
+        "change(24h)": "0%",
+        "high(24h)": "4.444 USD",
+        "low(24h)": "4.444 USD"
+    },
+    {
+        "currency pair": "UQC/USD",
+        "volume(24h)": "6.74 USD",
+        "last price": "1.63758 USD",
+        "change(24h)": "0%",
+        "high(24h)": "1.63758 USD",
+        "low(24h)": "1.63758 USD"
+    },
+    {
+        "currency pair": "JWL/USD",
+        "volume(24h)": "5.14 USD",
+        "last price": "0.29580 USD",
+        "change(24h)": "-0.95%",
+        "high(24h)": "0.29864 USD",
+        "low(24h)": "0.2958 USD"
+    },
+    {
+        "currency pair": "ARC/USD",
+        "volume(24h)": "4.25 USD",
+        "last price": "0.00135 USD",
+        "change(24h)": "0.75%",
+        "high(24h)": "0.00135 USD",
+        "low(24h)": "0.00134 USD"
+    },
+    {
+        "currency pair": "ETHOS/USD",
+        "volume(24h)": "3.33 USD",
+        "last price": "0.07999 USD",
+        "change(24h)": "4.29%",
+        "high(24h)": "0.07999 USD",
+        "low(24h)": "0.0767 USD"
+    },
+    {
+        "currency pair": "MSCN/USD",
+        "volume(24h)": "3.35 USD",
+        "last price": "0.00009 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0.00009 USD",
+        "low(24h)": "0.00009 USD"
+    },
+    {
+        "currency pair": "PLBT/USD",
+        "volume(24h)": "2.33 USD",
+        "last price": "0.85000 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0.85 USD",
+        "low(24h)": "0.85 USD"
+    },
+    {
+        "currency pair": "RVN/USD",
+        "volume(24h)": "0.96 USD",
+        "last price": "0.01880 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0.0188 USD",
+        "low(24h)": "0.0188 USD"
+    },
+    {
+        "currency pair": "HST/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00015 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "ADL/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00754 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "XRC/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00092 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "BTG/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "9.00000 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "RLC/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "1.53000 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "OBITS/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00850 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "ANT/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.85000 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "SHIFT/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.03990 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "DIME/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00001 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "TUSD/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.97601 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "TIME/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "1.02993 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "LKE/USD",
+        "volume(24h)": "1.70 USD",
+        "last price": "0.00002 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0.00002 USD",
+        "low(24h)": "0.00002 USD"
+    },
+    {
+        "currency pair": "GNO/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "24.00000 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "HNR/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00001 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "BID/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "7.99999 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "DIG/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00001 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "SNT/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.02287 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "SNB/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.07840 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "PUT/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00007 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "PAX/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "1.09000 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "EDG/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00685 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "CBR/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00003 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "CLPC/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00018 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "NVC/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.19000 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0.19 USD",
+        "low(24h)": "0.19 USD"
+    },
+    {
+        "currency pair": "VOISE/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00005 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "TRST/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00451 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "CRC/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.05820 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "PAI/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.01645 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "DYN/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.07991 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "PPT/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.43997 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "ABBC/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.01020 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "OTON/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.02264 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "DIBC/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00000 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "ARK/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.35000 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "PRO/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.13230 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "USD/EURN",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.55560000 EURN",
+        "change(24h)": "0%",
+        "high(24h)": "0 EURN",
+        "low(24h)": "0 EURN"
+    },
+    {
+        "currency pair": "DMC/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00002 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "VIB/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.01300 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "BSHORT/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "15.31400 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "REP/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "16.11111 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "LibraF/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00001 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "CPP/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00001 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "NAM/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00001 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "SNGLS/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.01994 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "BIO/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00013 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "TKN/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.30998 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "HVN/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00441 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "SC/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00399 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "PIVX/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.41000 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "CLOAK/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.15458 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "THS/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.00450 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    },
+    {
+        "currency pair": "BFF/USD",
+        "volume(24h)": "0.00 USD",
+        "last price": "0.50000 USD",
+        "change(24h)": "0%",
+        "high(24h)": "0 USD",
+        "low(24h)": "0 USD"
+    }
+]
