@@ -1,0 +1,1833 @@
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.infocorner').each(function(){
+            var getAlt = $(this).attr('alt');
+            if($(this).attr('alt') == 'type-digital'){
+            }else{
+                $(this).parent('a').parent('.info').show();
+            }
+        });
+
+
+        //for caption
+        $(".showtime_caption").each(function(){
+           var type_theatre = $(this).attr("data-theatre-type");
+           if(type_theatre=='type-digital-3d' ||
+              type_theatre=='type-3d' ||
+              type_theatre=='type-dolby-atmos-3d' ||
+              type_theatre=='type-dollby-atmos-3d' ){
+               $(this).html( $(this).html() + "<p>สำหรับภาพยนตร์ที่ฉายในระบบ 3 มิติ ราคาบัตรชมภาพยนตร์ยังไม่รวมราคาแว่น 3 มิติ ลูกค้าสามารถติดต่อซื้อแว่นได้ที่ Box Office จุดจำหน่ายบัตรชมภาพยนตร์ หรือ ตู้จำหน่ายบัตรชมภาพยนตร์อัตโนมัติ ( E ticket )" +
+                       " ในกรณีที่ท่านมีแว่น 3 มิติแล้ว สามารถใช้ชมภาพยนตร์ได้เลย</p>");
+           }
+        });
+        $(document).on('click','.info a',function(){
+            var getData = $(this).data('id');
+            if(getData == 'type-dolby-atmos-3d'){
+                var linkUrl = 'http://www.majorcineplex.com/system/dolbyatmos'
+            }else if(getData == 'type-digital-3d'){
+                var linkUrl = 'http://www.majorcineplex.com/system/d3d'
+            }else if(getData == 'type-4dx'){
+                var linkUrl = 'http://www.majorcineplex.com/system/fourdx'
+            }else if(getData == 'type-imax-digital-3d'){
+                var linkUrl = 'http://www.majorcineplex.com/system/imax'
+            }else if(getData == 'type-imax-digital'){
+                var linkUrl = 'http://www.majorcineplex.com/system/imax'
+            }else if(getData == 'type-4d2'){
+                var linkUrl = 'http://www.majorcineplex.com/system/fourdx'
+            }
+            else if(getData == 'type-imax-vr'){
+                var linkUrl = 'http://www.majorcineplex.com/imax_vr/'
+            }
+            else{
+
+            }
+            window.open(linkUrl, '_blank');
+        });
+    });
+</script>
+    <div class="book_branch" data-cinema-id="1">
+        <div class="book_branch_text">
+            <div class="book_branch_textinside">
+                Paragon Cineplex | พารากอน ซีนีเพล็กซ์
+            </div>
+        </div>
+    </div>
+    
+<!--     
+if the_id == 695 or the_id == 787 or
+                  the_id == 442 or the_id == 446 or the_id == 437 or
+                  the_id == 755 or the_id == 560 or the_id == 533 -->
+    
+    <div class="book_st_contain" data-cinema-id="1">
+                                                                            					                    <div class="book_st_row" id="828">
+                        <div class="book_st_left">
+                            <div class="book_st_theatre">Honda Ultimate1</div>
+                            <div class="book_st_theatre_no">1</div>
+                            <div class="book_st_logo">
+                                                                    <img src="https://cdn.majorcineplex.com/booking/assets/images/theatre-honda.png"/>
+                                                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="book_st_right">
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Train to Busan Peninsula" src="https://cdn.majorcineplex.com/uploads/movie/3005/thumb_3005.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Train to Busan Peninsula</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">ฝ่านรกซอมบี้คลั่ง</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    แอ็คชัน                                                                                                            ,
+                                                                                                                                                        สยองขวัญ                                                                                                                                                 </span>
+                                            <span class="mvdesc">116 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมที่มีอายุตั้งแต่ 15 ปีขึ้นไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_3.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                    >KR/ET</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132476"  >
+                                                                        13:00</a>
+                                                                    
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132477" >16:00</a>
+
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132478" >19:00</a>
+
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                            
+                            <div class="clr"></div>
+                        </div><!-- close book_st_right -->
+                        <div class="clr"></div>
+                    </div>
+                                                                                                                                                            					                    <div class="book_st_row" id="827">
+                        <div class="book_st_left">
+                            <div class="book_st_theatre">Honda Ultimate2</div>
+                            <div class="book_st_theatre_no">2</div>
+                            <div class="book_st_logo">
+                                                                    <img src="https://cdn.majorcineplex.com/booking/assets/images/theatre-honda.png"/>
+                                                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="book_st_right">
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Train to Busan Peninsula" src="https://cdn.majorcineplex.com/uploads/movie/3005/thumb_3005.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Train to Busan Peninsula</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">ฝ่านรกซอมบี้คลั่ง</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    แอ็คชัน                                                                                                            ,
+                                                                                                                                                        สยองขวัญ                                                                                                                                                 </span>
+                                            <span class="mvdesc">116 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมที่มีอายุตั้งแต่ 15 ปีขึ้นไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_3.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                    >KR/ET</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132479"  >
+                                                                        14:00</a>
+                                                                    
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132480" >17:00</a>
+
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                            
+                            <div class="clr"></div>
+                        </div><!-- close book_st_right -->
+                        <div class="clr"></div>
+                    </div>
+                                                                                                                                                                                                                                                                                                                                                                                                            					                    <div class="book_st_row" id="658">
+                        <div class="book_st_left">
+                            <div class="book_st_theatre">4DX</div>
+                            <div class="book_st_theatre_no">5</div>
+                            <div class="book_st_logo">
+                                                                    <img src="https://cdn.majorcineplex.com/booking/assets/images/theatre-4dx.png"/>
+                                                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="book_st_right">
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Train to Busan Peninsula" src="https://cdn.majorcineplex.com/uploads/movie/3005/thumb_3005.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Train to Busan Peninsula</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">ฝ่านรกซอมบี้คลั่ง</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    แอ็คชัน                                                                                                            ,
+                                                                                                                                                        สยองขวัญ                                                                                                                                                 </span>
+                                            <span class="mvdesc">116 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมที่มีอายุตั้งแต่ 15 ปีขึ้นไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_3.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                    >KR/ET</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132481"  >
+                                                                        11:20</a>
+                                                                    
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132482" >16:40</a>
+
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="IZONE EYES ON ME THE MOVIE" src="https://cdn.majorcineplex.com/uploads/movie/2869/thumb_2869.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">IZONE EYES ON ME THE MOVIE</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">IZONE EYES ON ME THE MOVIE</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    เพลง                                                                                                                                                 </span>
+                                            <span class="mvdesc">100 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-4d2">
+                                                                <img class="infocorner" alt="type-4d2"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title=""
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_0.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  4d2"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-4d2.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                    >KR/TH</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="98668"  >
+                                                                        14:00</a>
+                                                                    
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="98669" >19:30</a>
+
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-4d2"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                            
+                            <div class="clr"></div>
+                        </div><!-- close book_st_right -->
+                        <div class="clr"></div>
+                    </div>
+                                                                                                					                    <div class="book_st_row" id="669">
+                        <div class="book_st_left">
+                            <div class="book_st_theatre">Theatre 6</div>
+                            <div class="book_st_theatre_no">6</div>
+                            <div class="book_st_logo">
+                                                                    <img src="https://cdn.majorcineplex.com/booking/assets/images/theatre-led.png"/>
+                                                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="book_st_right">
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Train to Busan Peninsula" src="https://cdn.majorcineplex.com/uploads/movie/3005/thumb_3005.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Train to Busan Peninsula</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">ฝ่านรกซอมบี้คลั่ง</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    แอ็คชัน                                                                                                            ,
+                                                                                                                                                        สยองขวัญ                                                                                                                                                 </span>
+                                            <span class="mvdesc">116 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมที่มีอายุตั้งแต่ 15 ปีขึ้นไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_3.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                    >KR/ET</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132483"  >
+                                                                        11:50</a>
+                                                                    
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132484" >14:30</a>
+
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132485" >17:10</a>
+
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132486" >19:50</a>
+
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                            
+                            <div class="clr"></div>
+                        </div><!-- close book_st_right -->
+                        <div class="clr"></div>
+                    </div>
+                                                                                                					                    <div class="book_st_row" id="657">
+                        <div class="book_st_left">
+                            <div class="book_st_theatre">Theatre 7</div>
+                            <div class="book_st_theatre_no">7</div>
+                            <div class="book_st_logo">
+                                                                    <img src="https://cdn.majorcineplex.com/booking/assets/images/theatre-next.png"/>
+                                                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="book_st_right">
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Train to Busan Peninsula" src="https://cdn.majorcineplex.com/uploads/movie/3005/thumb_3005.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Train to Busan Peninsula</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">ฝ่านรกซอมบี้คลั่ง</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    แอ็คชัน                                                                                                            ,
+                                                                                                                                                        สยองขวัญ                                                                                                                                                 </span>
+                                            <span class="mvdesc">116 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมที่มีอายุตั้งแต่ 15 ปีขึ้นไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_3.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                    >KR/ET</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132487"  >
+                                                                        13:10</a>
+                                                                    
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132488" >15:50</a>
+
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132489" >18:30</a>
+
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                            
+                            <div class="clr"></div>
+                        </div><!-- close book_st_right -->
+                        <div class="clr"></div>
+                    </div>
+                                                                                                					                    <div class="book_st_row" id="661">
+                        <div class="book_st_left">
+                            <div class="book_st_theatre">Theatre 8</div>
+                            <div class="book_st_theatre_no">8</div>
+                            <div class="book_st_logo">
+                                                                    <img src="https://cdn.majorcineplex.com/booking/assets/images/theatre-ktb.png" style="display: none"/>
+                                                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="book_st_right">
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Train to Busan Peninsula" src="https://cdn.majorcineplex.com/uploads/movie/3005/thumb_3005.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Train to Busan Peninsula</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">ฝ่านรกซอมบี้คลั่ง</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    แอ็คชัน                                                                                                            ,
+                                                                                                                                                        สยองขวัญ                                                                                                                                                 </span>
+                                            <span class="mvdesc">116 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมที่มีอายุตั้งแต่ 15 ปีขึ้นไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_3.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                    >KR/ET</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132490"  >
+                                                                        11:30</a>
+                                                                    
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132491" >14:10</a>
+
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132492" >16:50</a>
+
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132493" >19:30</a>
+
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                            
+                            <div class="clr"></div>
+                        </div><!-- close book_st_right -->
+                        <div class="clr"></div>
+                    </div>
+                                                                                                					                    <div class="book_st_row" id="662">
+                        <div class="book_st_left">
+                            <div class="book_st_theatre">Theatre 9</div>
+                            <div class="book_st_theatre_no">9</div>
+                            <div class="book_st_logo">
+                                                                    <img src="https://cdn.majorcineplex.com/booking/assets/images/theatre-ktb.png" style="display: none"/>
+                                                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="book_st_right">
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Train to Busan Peninsula" src="https://cdn.majorcineplex.com/uploads/movie/3005/thumb_3005.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Train to Busan Peninsula</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">ฝ่านรกซอมบี้คลั่ง</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    แอ็คชัน                                                                                                            ,
+                                                                                                                                                        สยองขวัญ                                                                                                                                                 </span>
+                                            <span class="mvdesc">116 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมที่มีอายุตั้งแต่ 15 ปีขึ้นไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_3.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                    >KR/ET</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132494"  >
+                                                                        12:30</a>
+                                                                    
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132495" >15:10</a>
+
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132496" >17:50</a>
+
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                            
+                            <div class="clr"></div>
+                        </div><!-- close book_st_right -->
+                        <div class="clr"></div>
+                    </div>
+                                                                                                					                    <div class="book_st_row" id="666">
+                        <div class="book_st_left">
+                            <div class="book_st_theatre">Theatre 10</div>
+                            <div class="book_st_theatre_no">10</div>
+                            <div class="book_st_logo">
+                                                                    <img src="https://cdn.majorcineplex.com/booking/assets/images/theatre-ktb.png" style="display: none"/>
+                                                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="book_st_right">
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Train to Busan Peninsula" src="https://cdn.majorcineplex.com/uploads/movie/3005/thumb_3005.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Train to Busan Peninsula</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">ฝ่านรกซอมบี้คลั่ง</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    แอ็คชัน                                                                                                            ,
+                                                                                                                                                        สยองขวัญ                                                                                                                                                 </span>
+                                            <span class="mvdesc">116 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมที่มีอายุตั้งแต่ 15 ปีขึ้นไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_3.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                    >KR/ET</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132497"  >
+                                                                        12:10</a>
+                                                                    
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132498" >14:50</a>
+
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132499" >17:30</a>
+
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132500" >20:10</a>
+
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                            
+                            <div class="clr"></div>
+                        </div><!-- close book_st_right -->
+                        <div class="clr"></div>
+                    </div>
+                                                                                                					                    <div class="book_st_row" id="667">
+                        <div class="book_st_left">
+                            <div class="book_st_theatre">Theatre 11</div>
+                            <div class="book_st_theatre_no">11</div>
+                            <div class="book_st_logo">
+                                                                    <img src="https://cdn.majorcineplex.com/booking/assets/images/theatre-ktb.png" style="display: none"/>
+                                                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="book_st_right">
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Digimon Adventure Last Evolution Kizuna" src="https://cdn.majorcineplex.com/uploads/movie/2965/thumb_2965.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Digimon Adventure Last Evolution Kizuna</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">ดิจิมอน แอดเวนเจอร์ ลาสต์ อีโวลูชั่น คิซึนะ</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    แอ็คชัน                                                                                                            ,
+                                                                                                                                                        ผจญภัย                                                                                                            ,
+                                                                                                                                                        แอนิเมชัน                                                                                                                                                 </span>
+                                            <span class="mvdesc">100 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมทั่วไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_1.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                        title="เสียงภาษาไทย"
+                                                                                                                                                    >TH/--</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132501"  >
+                                                                        11:40</a>
+                                                                    
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="IZONE EYES ON ME THE MOVIE" src="https://cdn.majorcineplex.com/uploads/movie/2869/thumb_2869.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">IZONE EYES ON ME THE MOVIE</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">IZONE EYES ON ME THE MOVIE</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    เพลง                                                                                                                                                 </span>
+                                            <span class="mvdesc">100 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title=""
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_0.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                    >KR/TH</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="98648"  >
+                                                                        14:30</a>
+                                                                    
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="98649" >17:00</a>
+
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Train to Busan Peninsula" src="https://cdn.majorcineplex.com/uploads/movie/3005/thumb_3005.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Train to Busan Peninsula</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">ฝ่านรกซอมบี้คลั่ง</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    แอ็คชัน                                                                                                            ,
+                                                                                                                                                        สยองขวัญ                                                                                                                                                 </span>
+                                            <span class="mvdesc">116 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมที่มีอายุตั้งแต่ 15 ปีขึ้นไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_3.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                    >KR/ET</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132502"  >
+                                                                        19:10</a>
+                                                                    
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                            
+                            <div class="clr"></div>
+                        </div><!-- close book_st_right -->
+                        <div class="clr"></div>
+                    </div>
+                                                                                                                                                            					                    <div class="book_st_row" id="660">
+                        <div class="book_st_left">
+                            <div class="book_st_theatre">Theatre 12</div>
+                            <div class="book_st_theatre_no">12</div>
+                            <div class="book_st_logo">
+                                                                    <img src="https://cdn.majorcineplex.com/booking/assets/images/theatre-ktb.png" style="display: none"/>
+                                                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="book_st_right">
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="The Bridge Curse" src="https://cdn.majorcineplex.com/uploads/movie/3008/thumb_3008.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">The Bridge Curse</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">คำสาปสะพานเฮี้ยน</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    สยองขวัญ                                                                                                            ,
+                                                                                                                                                        ระทึกขวัญ                                                                                                                                                 </span>
+                                            <span class="mvdesc">88 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมที่มีอายุตั้งแต่ 13 ปีขึ้นไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_2.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                    >--/--</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132503"  >
+                                                                        11:40</a>
+                                                                    
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132504" >16:20</a>
+
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="The Lost Prince" src="https://cdn.majorcineplex.com/uploads/movie/2929/thumb_2929.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">The Lost Prince</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">เจ้าชายตกกระป๋อง</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    ผจญภัย                                                                                                            ,
+                                                                                                                                                        ตลก                                                                                                                                                 </span>
+                                            <span class="mvdesc">101 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมทั่วไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_1.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                    >OV/ET</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132505"  >
+                                                                        14:00</a>
+                                                                    
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Burden" src="https://cdn.majorcineplex.com/uploads/movie/2944/thumb_2944.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Burden</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">เบอร์เดน</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    ชีวิต                                                                                                                                                 </span>
+                                            <span class="mvdesc">113 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมที่มีอายุตั้งแต่ 13 ปีขึ้นไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_2.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                       title="เสียงภาษาอังกฤษ / บรรยายภาษาไทย"
+                                                                                                                                                    >EN/TH</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132506"  >
+                                                                        19:00</a>
+                                                                    
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                            
+                            <div class="clr"></div>
+                        </div><!-- close book_st_right -->
+                        <div class="clr"></div>
+                    </div>
+                                                                                                					                    <div class="book_st_row" id="659">
+                        <div class="book_st_left">
+                            <div class="book_st_theatre">Theatre 13</div>
+                            <div class="book_st_theatre_no">13</div>
+                            <div class="book_st_logo">
+                                                                    <img src="https://cdn.majorcineplex.com/booking/assets/images/theatre-ktb.png" style="display: none"/>
+                                                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="book_st_right">
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Mon-Ruk-Dok-Pak-Bung" src="https://cdn.majorcineplex.com/uploads/movie/2930/thumb_2930.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Mon-Ruk-Dok-Pak-Bung</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">มนต์รักดอกผักบุ้ง เลิกคุยทั้งอำเภอ</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    ตลก                                                                                                            ,
+                                                                                                                                                        โรแมนติก                                                                                                                                                 </span>
+                                            <span class="mvdesc">102 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมที่มีอายุตั้งแต่ 13 ปีขึ้นไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_2.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                        title="เสียงภาษาไทย"
+                                                                                                                                                    >TH/--</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132507"  >
+                                                                        11:50</a>
+                                                                    
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Digimon Adventure Last Evolution Kizuna" src="https://cdn.majorcineplex.com/uploads/movie/2965/thumb_2965.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Digimon Adventure Last Evolution Kizuna</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">ดิจิมอน แอดเวนเจอร์ ลาสต์ อีโวลูชั่น คิซึนะ</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    แอ็คชัน                                                                                                            ,
+                                                                                                                                                        ผจญภัย                                                                                                            ,
+                                                                                                                                                        แอนิเมชัน                                                                                                                                                 </span>
+                                            <span class="mvdesc">100 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมทั่วไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_1.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                        title="เสียงภาษาไทย"
+                                                                                                                                                    >TH/--</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132509"  >
+                                                                        14:10</a>
+                                                                    
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132510" >19:00</a>
+
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Game-Sayn-Phee" src="https://cdn.majorcineplex.com/uploads/movie/2956/thumb_2956.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Game-Sayn-Phee</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">เกมเซ่นผี</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    สยองขวัญ                                                                                                                                                 </span>
+                                            <span class="mvdesc">95 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมที่มีอายุตั้งแต่ 13 ปีขึ้นไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_2.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                       title="เสียงภาษาไทย / บรรยายภาษาอังกฤษ"
+                                                                                                                                                    >TH/EN</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132508"  >
+                                                                        16:30</a>
+                                                                    
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                            
+                            <div class="clr"></div>
+                        </div><!-- close book_st_right -->
+                        <div class="clr"></div>
+                    </div>
+                                                                                                					                    <div class="book_st_row" id="656">
+                        <div class="book_st_left">
+                            <div class="book_st_theatre">Theatre 14</div>
+                            <div class="book_st_theatre_no">14</div>
+                            <div class="book_st_logo">
+                                                                    <img src="https://cdn.majorcineplex.com/booking/assets/images/theatre-ktb.png" style="display: none"/>
+                                                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="book_st_right">
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Huk-Terd-Teng" src="https://cdn.majorcineplex.com/uploads/movie/2860/thumb_2860.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Huk-Terd-Teng</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">ฮักเถิดเทิง</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    ตลก                                                                                                            ,
+                                                                                                                                                        โรแมนติก                                                                                                            ,
+                                                                                                                                                        ไทย                                                                                                                                                 </span>
+                                            <span class="mvdesc">103 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมที่มีอายุตั้งแต่ 13 ปีขึ้นไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_2.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                        title="เสียงภาษาไทย"
+                                                                                                                                                    >TH/--</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132511"  >
+                                                                        11:30</a>
+                                                                    
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132512" >16:30</a>
+
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Suk Suk" src="https://cdn.majorcineplex.com/uploads/movie/3007/thumb_3007.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Suk Suk</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">ซุกที่เขา สุขที่ใจ</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    ชีวิต                                                                                                                                                 </span>
+                                            <span class="mvdesc">92 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมที่มีอายุตั้งแต่ 15 ปีขึ้นไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_3.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                    >--/--</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132513"  >
+                                                                        14:00</a>
+                                                                    
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132514" >19:00</a>
+
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                            
+                            <div class="clr"></div>
+                        </div><!-- close book_st_right -->
+                        <div class="clr"></div>
+                    </div>
+                                                                                                                                                            					                    <div class="book_st_row" id="664">
+                        <div class="book_st_left">
+                            <div class="book_st_theatre">   Enigma</div>
+                            <div class="book_st_theatre_no">15</div>
+                            <div class="book_st_logo">
+                                                                    <img src="https://cdn.majorcineplex.com/booking/assets/images/theatre-enigma.png"/>
+                                                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="book_st_right">
+                                                            <div class="book_st_right_box">
+                                    <div class="book_st_poster">
+                                                                                    <img title="Train to Busan Peninsula" src="https://cdn.majorcineplex.com/uploads/movie/3005/thumb_3005.jpg"/>
+                                                                            </div>
+                                    <div class="book_st_desc">
+                                        <div class="book_st_mvname">Train to Busan Peninsula</div>
+                                        <div class="book_st_mvdesc">
+                                                                                            <span class="mvdesc mvdescbf">ฝ่านรกซอมบี้คลั่ง</span>
+                                                                                        <span class="mvdesc mvdescbf">
+
+                                                                                                    แอ็คชัน                                                                                                            ,
+                                                                                                                                                        สยองขวัญ                                                                                                                                                 </span>
+                                            <span class="mvdesc">116 นาที</span>
+
+                                            
+
+                                        </div>
+
+                                                                                
+                                                                                                <div class="book_st_inside">
+                                                        <div class="info" style="display:none">
+                                                            <a href="javascript:;" data-id="type-digital">
+                                                                <img class="infocorner" alt="type-digital"
+                                                                     src="https://cdn.majorcineplex.com/assets/front/images/i-icon.png">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="book_st_icon">
+                                                            <ul>
+                                                                <li>
+                                                                    <img data-toggle="tooltip"
+                                                                         onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                      title='เหมาะสมกับผู้ชมที่มีอายุตั้งแต่ 15 ปีขึ้นไป'
+                                                                                                                                                  style="cursor:pointer"
+                                                                         src="https://cdn.majorcineplex.com/assets/front/images/rating/rating_3.png"/>
+                                                                </li>
+                                                                <li>
+                                                                    <img   data-toggle="tooltip"
+                                                                           style="cursor:pointer"
+                                                                           onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                             title ="ระบบฉาย  digital"
+                                                                                                                                                        src="https://cdn.majorcineplex.com/booking/assets/images/type-digital.png?v=1"/>
+                                                                </li>
+                                                                <li>
+                                                                    <span data-toggle="tooltip"
+                                                                          style="cursor:pointer"
+                                                                          onclick="window.open('http://www.majorcineplex.com/news/icons')"
+                                                                                                                                                    >KR/ET</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="book_st_time">
+                                                            
+                                                                                                                                    <a href="javascript:;" class="nowst nextst"
+                                                                       data-showtime="132515"  >
+                                                                        12:00</a>
+                                                                    
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132516" >15:00</a>
+
+                                                                                                                            
+                                                                                                                                    <a href="javascript:;" class="nextst"
+                                                                       data-showtime="132517" >18:00</a>
+
+                                                                                                                                                                                    </div>
+                                                        <div class="clr"></div>
+                                                    </div>
+													<div class="showtime_caption" data-theatre-type="type-digital"> 
+																										</div>
+                                            
+                                                                                <div class="clr"></div>
+                                                                                    <div class="clr"></div>
+                                    </div>
+                                    <div class="clr"></div>
+                                    
+                                </div>
+                            
+                            <div class="clr"></div>
+                        </div><!-- close book_st_right -->
+                        <div class="clr"></div>
+                    </div>
+                                                                                                
+        
+        <div class="clr"></div>
+    </div><!-- close book_st_contain -->
+
+
+
+<script>
+    // Detect Browser
+    if($.browser.mozilla) {
+        $('.book_branch_textinside').css({'color':'#eaba11'});
+
+    }
+
+    if (navigator.appName == 'Microsoft Internet Explorer' ||  !!(navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/)) || (typeof $.browser !== "undefined" && $.browser.msie == 1))
+    {
+        $('.book_branch_textinside').css({'color':'#eaba11','background':'none','font-size':'17px'});
+    }
+
+
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
